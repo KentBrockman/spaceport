@@ -9,7 +9,7 @@ import { InstructorCourseList, InstructorCourseDetail } from './InstructorCourse
 import { InstructorClassList } from './InstructorClasses.js';
 
 export const tags = {
-	Protospace: 'black',
+	DVSLC: 'black',
 	Laser: 'red',
 	Wood: 'brown',
 	CNC: 'orange',

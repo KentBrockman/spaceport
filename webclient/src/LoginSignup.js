@@ -177,7 +177,7 @@ export function SignupForm(props) {
 							error={!!error.existing_member}
 						/>
 						<Form.Radio
-							label='I am new to Protospace'
+							label='I am new to DVSLC'
 							name='existing_member'
 							value={false}
 							checked={input.existing_member === false}
@@ -245,16 +245,17 @@ export function SignupForm(props) {
 			:
 				<>
 					<Message info>
-						<Message.Header>Please Visit Protospace</Message.Header>
+						<Message.Header>Please Visit DVSLC</Message.Header>
 						<p>You'll need to sign a waiver and fill out member forms.</p>
 					</Message>
 					<p>
 						Our address: <br />
-						1530 27th Avenue NE <br />
-						Bay 108 <br />
-						Calgary, Alberta, Canada
+						218 Kennedy Drive SE <br />
+						Bay 1047 <br />
+						Turner Valley, Alberta, Canada <br />
+						T0L 2A0
 					</p>
-					<p><a href="https://goo.gl/maps/u1NeC71HzUEUhe7N9" target="_blank">Google Maps Link</a></p>
+					<p><a href="https://goo.gl/maps/x2hLdtUPmzHUMC3D9" target="_blank">Google Maps Link</a></p>
 				</>
 			}
 		</Form>

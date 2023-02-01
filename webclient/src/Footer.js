@@ -29,23 +29,22 @@ export const Footer = () => {
 				<p className="text">
 					Contact us:{' '}
 					<a
-						href="mailto:info@protospace.ca"
+						href="mailto:info@dvslc.ca"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						info@protospace.ca
+						info@dvslc.ca
 					</a>
 				</p>
 
 				<p className="text">
-					Created and hosted by Protospace members for Protospace
-					members.
+					Created and hosted by DVSLC members for DVSLC members.
 				</p>
 
 				<p className="text">
 					Spaceport is free and open-source software.{' '}
 					<a
-						href="https://github.com/Protospace/spaceport"
+						href="https://github.com/KentBrockman/spaceport"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
@@ -56,7 +55,7 @@ export const Footer = () => {
 
 				<p>
 					<a
-						href="https://instagram.com/protospace"
+						href="https://instagram.com/sustainablediamondvalley"
 						target="_blank"
 						rel="noopener noreferrer"
 						aria-label="link to our instagram"
@@ -64,31 +63,15 @@ export const Footer = () => {
 						<Icon name="instagram" size="large" />
 					</a>
 					<a
-						href="https://twitter.com/protospace"
+						href="https://facebook.com/SustainableDiamondValley"
 						target="_blank"
 						rel="noopener noreferrer"
-						aria-label="link to our twitter"
+						aria-label="link to our facebook"
 					>
-						<Icon name="twitter" size="large" />
+						<Icon name="facebook" size="large" />
 					</a>
 					<a
-						href="https://youtube.com/user/calgaryprotospace/playlists"
-						target="_blank"
-						rel="noopener noreferrer"
-						aria-label="link to our youtube"
-					>
-						<Icon name="youtube" size="large" />
-					</a>
-					<a
-						href="https://github.com/Protospace"
-						target="_blank"
-						rel="noopener noreferrer"
-						aria-label="link to our github"
-					>
-						<Icon name="github" size="large" />
-					</a>
-					<a
-						href="https://docs.my.protospace.ca"
+						href="https://docs.my.dvslcmaker.space"
 						target="_blank"
 						rel="noopener noreferrer"
 						aria-label="link to our docs"
@@ -97,7 +80,7 @@ export const Footer = () => {
 					</a>
 				</p>
 
-				<p>© 2020-{new Date().getFullYear()} Calgary Protospace Ltd.</p>
+				<p>© 2023-{new Date().getFullYear()} Diamond Valley Sustainable Living Centre.</p>
 			</Container>
 		</div>
 	);

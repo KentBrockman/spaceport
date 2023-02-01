@@ -298,7 +298,7 @@ export function ClassFeed(props) {
 		<Container>
 			<p/>
 
-			<Header size='large'>Upcoming Protospace Classes</Header>
+			<Header size='large'>Upcoming DVSLC Classes</Header>
 
 			{classes ?
 				<ClassTable classes={classes.filter(x => x.datetime > now).sort((a, b) => a.datetime > b.datetime ? 1 : -1)} />
