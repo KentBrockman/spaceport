@@ -33,7 +33,7 @@ BINDALL_ENV = os.environ.get('BINDALL', False)
 DEBUG = DEBUG_ENV or False
 
 
-PRODUCTION_HOST = 'my.protospace.ca'
+PRODUCTION_HOST = 'my.dvslcmaker.space'
 
 
 # production hosts
@@ -45,7 +45,7 @@ if DEBUG:
     ALLOWED_HOSTS += [
         'localhost',
         '127.0.0.1',
-        'api.spaceport.dns.t0.vc',
+        'api.dvslc.dns.t0.vc',
     ]
 
 if BINDALL_ENV:
@@ -294,7 +294,7 @@ EMAIL_HOST_USER = secrets.EMAIL_USER
 EMAIL_HOST_PASSWORD = secrets.EMAIL_PASS
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
-DEFAULT_FROM_EMAIL = 'Protospace Portal <portal@mg.protospace.ca>'
+DEFAULT_FROM_EMAIL = 'DVSLC Portal <portal@mg.dvslcmaker.space>'
 
 if DEBUG: logger.info('Debug mode ON')
 logger.info('Test logging for each thread')
