@@ -146,7 +146,7 @@ function App() {
 							</Link>
 						</div>
 
-						{window.location.hostname !== 'my.dvslcmaker.space' &&
+						{window.location.hostname !== 'my.dvslc.ca' &&
 							<p style={{ background: 'yellow' }}>~~~~~ Development site ~~~~~</p>
 						}
 					</Container>

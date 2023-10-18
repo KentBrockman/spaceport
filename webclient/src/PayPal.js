@@ -9,7 +9,7 @@ export function PayPalPayNow(props) {
 		<div className='paypal-container'>
 			<form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_blank'>
 				<input type='hidden' name='cmd' value='_xclick' />
-				<input type='hidden' name='business' value='info@protospace.ca' />
+				<input type='hidden' name='business' value='info@dvslc.ca' />
 				<input type='hidden' name='lc' value='CA' />
 				<input type='hidden' name='item_name' value={name} />
 				<input type='hidden' name='amount' value={amount} />
@@ -34,7 +34,7 @@ export function PayPalSubscribe(props) {
 		<div className='paypal-container'>
 			<form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_blank'>
 				<input type='hidden' name='cmd' value='_xclick-subscriptions' />
-				<input type='hidden' name='business' value='info@protospace.ca' />
+				<input type='hidden' name='business' value='info@dvslc.ca' />
 				<input type='hidden' name='lc' value='US' />
 				<input type='hidden' name='item_name' value={name} />
 				<input type='hidden' name='no_note' value='1' />
@@ -59,7 +59,7 @@ export function PayPalSubscribeDeal(props) {
 		<div className='paypal-container'>
 			<form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_blank'>
 				<input type='hidden' name='cmd' value='_xclick-subscriptions' />
-				<input type='hidden' name='business' value='info@protospace.ca' />
+				<input type='hidden' name='business' value='info@dvslc.ca' />
 				<input type='hidden' name='lc' value='US' />
 				<input type='hidden' name='item_name' value={name}/>
 				<input type='hidden' name='no_note' value='1' />
