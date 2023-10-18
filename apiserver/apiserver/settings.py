@@ -33,7 +33,7 @@ BINDALL_ENV = os.environ.get('BINDALL', False)
 DEBUG = DEBUG_ENV or False
 
 
-PRODUCTION_HOST = 'my.dvslcmaker.space'
+PRODUCTION_HOST = 'my.dvslc.ca'
 
 
 # production hosts

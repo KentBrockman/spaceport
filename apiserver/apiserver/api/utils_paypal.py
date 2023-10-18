@@ -21,7 +21,7 @@ if SANDBOX:
     OUR_CURRENCY = 'USD'
 else:
     VERIFY_URL = 'https://ipnpb.paypal.com/cgi-bin/webscr'
-    OUR_EMAIL = 'paypal@protospace.ca'
+    OUR_EMAIL = 'info@dvslc.ca'
     OUR_CURRENCY = 'CAD'
 
 def parse_paypal_date(string):
