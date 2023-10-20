@@ -131,7 +131,7 @@ export function Paymaster(props) {
 	const [donate, setDonate] = useState('');
 	const [memo, setMemo] = useState('');
 
-	const monthly_fees = user.member.monthly_fees || 55;
+	const monthly_fees = user.member.monthly_fees || 50;
 
 	return (
 		<Container>
