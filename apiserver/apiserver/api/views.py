@@ -249,7 +249,7 @@ class MemberViewSet(Base, Retrieve, Update):
         member.current_start_date = today
         member.paused_date = None
         if not member.monthly_fees:
-            member.monthly_fees = 55
+            member.monthly_fees = 50
 
         member.save()
         utils.tally_membership_months(member)

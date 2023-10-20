@@ -58,7 +58,7 @@ class Member(models.Model):
     rabbit_cert_date = models.DateField(blank=True, null=True, default=None)
     trotec_cert_date = models.DateField(blank=True, null=True, default=None)
     paused_date = models.DateField(blank=True, null=True)
-    monthly_fees = models.IntegerField(default=55, blank=True, null=True)
+    monthly_fees = models.IntegerField(default=50, blank=True, null=True)
     is_allowed_entry = models.BooleanField(default=True)
     discourse_username = models.CharField(default='', max_length=40, blank=True, null=True)
     mediawiki_username = models.CharField(default='', max_length=40, blank=True, null=True)
