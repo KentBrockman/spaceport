@@ -347,7 +347,7 @@ export function Home(props) {
 =======
 							<p><a href='https://dvslc.ca/' target='_blank' rel='noopener noreferrer'>Main Website</a></p>
 							{false && <p><a href='https://wiki.protospace.ca/Welcome_to_Protospace' target='_blank' rel='noopener noreferrer'>Protospace Wiki</a> — <Link to='/auth/wiki'>[register]</Link></p>}
-							<p><a href='https://forum.dvslcmaker.space' target='_blank' rel='noopener noreferrer'>Forum (Discourse)</a> — <Link to='/auth/discourse'>[register]</Link></p>
+							<p><a href='https://forum.dvslc.ca' target='_blank' rel='noopener noreferrer'>Forum (Discourse)</a> — <Link to='/auth/discourse'>[register]</Link></p>
 							{!!user && <p><a href='https://drive.google.com/drive/folders/1W5L1vdcY1TrWv6HPhiF-lLJXHKlC5120' target='_blank' rel='noopener noreferrer'>Google Drive</a></p>}
 >>>>>>> 4e0859b (Make Spaceport specific to DVSLC Makerspace)
 
