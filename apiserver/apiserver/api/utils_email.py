@@ -32,7 +32,7 @@ def send_welcome_email(member):
         email_html = replace_fields(f.read())
 
     send_mail(
-        subject='Welcome to Protospace!',
+        subject='Welcome to Valley Makerspace!',
         message=email_text,
         from_email=None,  # defaults to DEFAULT_FROM_EMAIL
         recipient_list=[member.user.email],
@@ -59,7 +59,7 @@ def send_ical_email(member, session, ical_file):
     with open(EMAIL_DIR + 'ical.html', 'r') as f:
         email_html = replace_fields(f.read())
 
-    subject = 'Protospace ' + session.course.name
+    subject = 'Valley Makerspace ' + session.course.name
     from_email = None  # defaults to DEFAULT_FROM_EMAIL
     to = member.user.email
     msg = EmailMultiAlternatives(subject, email_text, from_email, [to])
@@ -76,7 +76,7 @@ def send_interest_email(interest):
         ).replace(
             '[course]', interest.course.name,
         ).replace(
-            '[link]', 'https://my.protospace.ca/courses/' + str(interest.course.id),
+            '[link]', 'https://my.dvslc.ca/courses/' + str(interest.course.id),
         )
 
     with open(EMAIL_DIR + 'interest.txt', 'r') as f:
@@ -86,7 +86,7 @@ def send_interest_email(interest):
         email_html = replace_fields(f.read())
 
     send_mail(
-        subject='Protospace class scheduled',
+        subject='Valley Makerspace class scheduled',
         message=email_text,
         from_email=None,  # defaults to DEFAULT_FROM_EMAIL
         recipient_list=[interest.user.email],
@@ -121,7 +121,7 @@ def send_usage_bill_email(user, device, month, minutes, overage, bill):
         subject='{} {} Usage Bill'.format(month, device),
         message=email_text,
         from_email=None,  # defaults to DEFAULT_FROM_EMAIL
-        recipient_list=[user.email, 'directors@protospace.ca', 'spaceport@tannercollin.com'],
+        recipient_list=[user.email, 'info@dvslc.ca', 'dvslc@tannercollin.com'],
     )
 
     if not settings.EMAIL_HOST:
