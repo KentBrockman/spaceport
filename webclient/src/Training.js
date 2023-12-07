@@ -128,7 +128,7 @@ export function Training(props) {
 
 			<CertList member={user.member} />
 
-			<p>Access is based on the courses you've taken. If there's any errors, please email <a href='mailto:directors@protospace.ca'>directors@protospace.ca</a>.</p>
+			<p>Access is based on the courses you've taken. If there's any errors, please email <a href='mailto:info@dvslc.ca'>info@dvslc.ca</a>.</p>
 
 			<Header size='large'>Your Training</Header>
 
