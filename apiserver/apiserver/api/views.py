@@ -274,11 +274,13 @@ class CardViewSet(Base, Create, Retrieve, Update):
     serializer_class = serializers.CardSerializer
 
     def perform_create(self, serializer):
-        serializer.save()
+        card_number = self.request.data.get('card_number', '').upper()
+        serializer.save(card_number=card_number)
         utils_stats.changed_card()
 
     def perform_update(self, serializer):
-        serializer.save()
+        card_number = self.request.data.get('card_number', '').upper()
+        serializer.save(card_number=card_number)
         utils_stats.changed_card()
 
 
